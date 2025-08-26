@@ -1,0 +1,10 @@
+int ledPin = 13;  // led connected to pin 13
+
+void setup() {
+  pinMode(ledPin, OUTPUT);   // let pin set as output
+  digitalWrite(ledPin, HIGH); // led ON
+}
+
+void loop() {
+  // Nothing needed here, led stays ON
+}
